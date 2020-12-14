@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.logo{
+    height: 100px;
+    padding: 5px 10px;
+}
+.nav{
+    padding-top: 30px;
+}
+.icon-bar{
+    background:darkblue ;
+}
+li a{
+    color: darkblue;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color : darkblue;
+}
+a.btn{
+    margin: 3opx 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color:darkblue;
+    color: white;
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid darkblue;
+    color: black;
+}
+a.btn:hover{
+    background: darkblue;
+    border: none;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+    color: white;
+}
+.nav:hover{
+    color:red;
+}
